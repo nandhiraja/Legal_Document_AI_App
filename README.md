@@ -116,8 +116,7 @@ A Streamlit-powered web application for analyzing legal documents, identifying p
 
 ## Screenshots
 
-*Add screenshots or diagrams here to showcase the application interface and features.*
-
+![Image](https://github.com/user-attachments/assets/3abae01c-67ea-4d40-8aab-e312ee3d613e)
 ---
 
 
