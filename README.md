@@ -68,8 +68,7 @@ A Streamlit-powered web application for analyzing legal documents, identifying p
     - `smtplib`
 
 
-![Concept Diagram Placeholder](# "Replace this text with an image link for your concept diagram.")
-
+![Image](https://github.com/user-attachments/assets/800262a2-6cd4-409d-a74b-756524d9d46a)
 ## Setup Instructions
 
 1. **Clone the Repository**
