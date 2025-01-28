@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from langchain_groq import ChatGroq
 
 
-API_KEY = "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"
+API_KEY = "Your apikey"
 MODEL_NAME = "llama-3.2-11b-vision-preview"
 llm = ChatGroq(groq_api_key=API_KEY, model_name=MODEL_NAME)
 
