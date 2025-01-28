@@ -11,13 +11,17 @@ from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain_groq import ChatGroq
 from langchain.text_splitter import CharacterTextSplitter
+import os
+from dotenv import load_dotenv
 
 # Google Sheets Configuration
-SERVICE_ACCOUNT_FILE = "/home/nandhiraja/Nandhiraja C/project/infosys/infosys-449015-83ef8f804adb.json"  # Replace with your service account file
+SERVICE_ACCOUNT_FILE = "/infosys/infosys-449015-83ef8f804adb.json"  # Replace with your service account file for G-sheet
 SPREADSHEET_ID = "1rvEwtYh7mpqcBZgv7D14giGZ_mhBM-aiNZ_dxjJJQf0"  # Replace with your Google Sheet ID
 
 # LLM Configuration
-API_KEY = "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"  # Replace with your Groq API key
+
+load_dotenv()
+API_KEY= os.environ.get("Api_key")
 MODEL_NAME = "llama-3.2-11b-vision-preview"
 llm = ChatGroq(groq_api_key=API_KEY, model_name=MODEL_NAME)
 
@@ -55,7 +59,7 @@ st.markdown(
 )
 
 # Title
-st.title("📋 Legal Document Risk Analysis Dashboard")
+st.title("Legal Document Risk Analysis Dashboard")
 
 # Sidebar for Email Configuration
 st.sidebar.header("Email Configuration 📧")
