@@ -15,7 +15,7 @@ import os
 from dotenv import load_dotenv
 
 # Google Sheets Configuration
-SERVICE_ACCOUNT_FILE = "/infosys/infosys-449015-83ef8f804adb.json"  # Replace with your service account file for G-sheet
+SERVICE_ACCOUNT_FILE = "/infosys/infosys-449015-83ef8f804adb.json"  # Replace with your google sheet service access .json  for your account 
 SPREADSHEET_ID = "1rvEwtYh7mpqcBZgv7D14giGZ_mhBM-aiNZ_dxjJJQf0"  # Replace with your Google Sheet ID
 
 # LLM Configuration
