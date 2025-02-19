@@ -58,7 +58,7 @@ A Streamlit-powered web application for analyzing legal documents, identifying p
 
 ---
 ### Prerequisites
-- Python 3.8 or above
+- Python 3.12
 - Required Python libraries (install using `pip install -r requirements.txt`):
     - `streamlit`
     - `pandas`
